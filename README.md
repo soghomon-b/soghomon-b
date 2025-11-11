@@ -24,7 +24,7 @@ class SoghomonNet(nn.Module):
         )
 
         # Layers
-        self.layers = Parallel(
+        self.layers = nn.Parallel(
             Intro(
                 tagline="CS × Linguistics @ UBC → building accessible ML",
                 status="Founder of BojAI • TA • ML R&D"
