@@ -9,6 +9,7 @@ Explore the SOGHOMONNET Neural Network below to learn more about me.
 # Task: Research & learn & ship useful ML systems for language + education.
 
 import torch
+import torch.nn as nn
 # NOTE: this NN uses Modules that do not exist for ✨ aesthetic ✨ reasons.
 class SoghomonNet(nn.Module):
     def __init__(self):
