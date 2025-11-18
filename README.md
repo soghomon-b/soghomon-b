@@ -4,7 +4,7 @@ Explore the SOGHOMONNET Neural Network below to learn more about me.
 
 ```python
 # ┌─────────────────────────────────────────────────────────────┐
-# │                    S O G H O M O N N E T                   │
+# │                    S O G H O M O N N E T                    │
 # └─────────────────────────────────────────────────────────────┘
 # Task: Research & learn & ship useful ML systems for language + education.
 
