@@ -96,6 +96,5 @@ if __name__ == "__main__":
     model = SoghomonNet()
     model.fit()
     # Training in progress: making ML accessible, high-quality, and impactful.
-    # SoghomonNet requires more data — applying to grad school to get it!
 ```
 
