@@ -3,14 +3,19 @@ I’m Soghomon. I build NLP models that are accessible, high-quality, and impact
 Explore the SOGHOMONNET Neural Network below to learn more about me.
 
 ```python
+
 # ┌─────────────────────────────────────────────────────────────┐
 # │                    S O G H O M O N N E T                    │
 # └─────────────────────────────────────────────────────────────┘
-# Task: Research & learn & ship useful ML systems for language + education.
+# Mission: Research, build, and ship AI that makes a difference.
+# Focus: Healthcare AI × NLP × Agentic Systems × ML Research
 
 import torch
 import torch.nn as nn
-# NOTE: this NN uses Modules that do not exist for ✨ aesthetic ✨ reasons.
+
+# NOTE: Some modules are fictional.
+# The research, projects, and experience are real. ✨
+
 class SoghomonNet(nn.Module):
     def __init__(self):
         super().__init__()
@@ -18,83 +23,196 @@ class SoghomonNet(nn.Module):
         # Hyperparameters (personality-as-code)
         self.hparams = dict(
             curiosity=1.0,
-            shipping_bias=0.9,     # strong bias toward building & releasing
-            kindness_dropout=0.1,
-            languages=["English","French","Arabic","Armenian","German","Spanish"],
+            research_drive=0.95,
+            shipping_bias=0.9,
+            kindness_dropout=0.0,
+            languages=[
+                "Armenian", "Arabic", "English",
+                "French", "German", "Spanish"
+            ],
             location="Vancouver, BC, Canada",
+            education="UBC Computer Science + Linguistics (2026)",
         )
 
-        # Layers
         self.layers = nn.Parallel(
             Intro(
-                tagline="CS × Linguistics @ UBC → building accessible ML",
-                status="Founder of BojAI • TA • ML R&D"
+                tagline="Computer Science × Linguistics × Healthcare AI",
+                status="ML Research Engineer • NeurIPS 2026 Author • BojAI Developer",
+                mission="Building reliable, accessible, and clinically useful AI systems.",
             ),
+
             Research(
                 interests=[
-                    "Low-resource NLP",
-                    "Efficient training & deployment",
-                    "Educational AI (tagging, assessment, tooling)",
-                    "Unsupervised representations & clustering",
+                    "Clinical LLMs, RAG, and AI safety",
+                    "Agentic AI and multi-agent orchestration",
+                    "Multilingual embeddings and representation learning",
+                    "Healthcare ML and computational oncology",
+                    "Supervised and unsupervised machine learning",
+                    "Efficient ML evaluation and deployment",
                 ],
                 current=[
-                    "SVD-based geometric methods for creating universal linguistic embeddings",
-                    "↳ Investigating how different embedding styles capture semantic meaning",
+                    "Universal multilingual embedding spaces",
+                    "Clinical AI workflows with safety-first agent architectures",
+                    "Multimodal representation learning for oncology",
                 ],
             ),
-            nn.Sequential(  # series of projects
+
+            nn.Sequential(
                 Project(
                     name="BojAI",
-                    brief="Open-source framework to process/train/evaluate/deploy ML pipelines (CLI + PyQt UI).",
-                    stack=["Python","PyTorch","PyQt5","HF Transformers"],
+                    brief=(
+                        "Full-stack platform featuring visual AI agent "
+                        "orchestration, modular RAG workflows, and safety "
+                        "evaluation for clinical AI applications. "
+                        "Reduced chatbot development time by 80%."
+                    ),
+                    stack=[
+                        "Python", "FastAPI", "React", "TypeScript",
+                        "PostgreSQL", "Supabase", "LLMs"
+                    ],
                     link="https://bojai.org",
                 ),
+
                 Project(
-                    name="UltiQuest",
-                    brief="Ontology + LLM pipelines to tag past-exam questions with hierarchical concepts.",
-                    stack=["Python","LLMs","Evaluation harness"],
+                    name="Clinical AI Chatbots",
+                    brief=(
+                        "Clinical LLM applications for mental-health support "
+                        "using RAG, semantic retrieval, reranking, "
+                        "and multi-layer safety guardrails."
+                    ),
+                    stack=[
+                        "Python", "AWS Bedrock", "FastAPI",
+                        "FAISS", "RAG", "Safety Evaluation"
+                    ],
                 ),
+
                 Project(
-                    name="MT for Under-Resourced Languages",
-                    brief="Fine-tuned transformers across 5 language families with reproducible HPC pipelines.",
-                    stack=["Python","Transformers","SLURM","sacreBLEU"],
+                    name="Universal Multilingual Embeddings",
+                    brief=(
+                        "Investigated cross-lingual alignment across "
+                        "multilingual embedding models and geometric "
+                        "representation-learning methods."
+                    ),
+                    stack=[
+                        "PyTorch", "Transformers", "SVD",
+                        "Contrastive Learning", "Statistical Analysis"
+                    ],
+                ),
+
+                Project(
+                    name="UltiQuest / Quesal AI",
+                    brief=(
+                        "LLM-powered hierarchical concept tagging "
+                        "and educational content generation, "
+                        "achieving 80% generation accuracy."
+                    ),
+                    stack=["Python", "FastAPI", "LLMs", "RAG"],
+                ),
+
+                Project(
+                    name="Low-Resource Machine Translation",
+                    brief=(
+                        "Evaluated transfer learning for neural machine "
+                        "translation across five low-resource languages."
+                    ),
+                    stack=["Python", "Transformers", "SLURM", "sacreBLEU"],
                 ),
             ),
+
             Skills(
-                core=["Python","PyTorch","Transformers","TypeScript","React","C/C++","Docker","Ollama"],
-                patterns=["Design patterns","Data pipelines","Caching","Neural networks","Unit/CI"],
-                tools=["HF","W&B","PyQt","GitHub Actions","VS Code","Linux"],
+                core=[
+                    "Python", "PyTorch", "scikit-learn",
+                    "TypeScript", "React", "FastAPI",
+                    "PostgreSQL", "Docker", "Git"
+                ],
+                ai=[
+                    "LLMs", "RAG", "Agentic AI",
+                    "Transformers", "Embeddings",
+                    "FAISS", "Model Evaluation",
+                    "AI Safety"
+                ],
+                cloud=[
+                    "AWS Bedrock", "Supabase",
+                    "REST APIs", "Data Pipelines"
+                ],
+                research=[
+                    "Representation Learning",
+                    "Statistical Analysis",
+                    "Supervised / Unsupervised ML",
+                    "Multilingual NLP"
+                ],
             ),
+
             Experience([
-                Role("Samsung R&D Canada","Technical Writer Co-op • ML tools for the content team"),
-                Role("TU Darmstadt","MT research • low-resource pipelines & eval"),
-                Role("UBC CPSC 210","TA • Software Construction"),
-                Role("UBC CEDaR","Language Reclamation Engineer • ORC + ASR for Kwak’wala (Indigenous language)"),
+                Role(
+                    "UBC Psychiatry",
+                    "ML Research Engineer • Clinical LLMs, RAG & Safety"
+                ),
+                Role(
+                    "UBC Quesal AI",
+                    "Academic Assistant • Agentic AI & Research Leadership"
+                ),
+                Role(
+                    "Samsung R&D Canada",
+                    "AI Automation • Production ML Workflows"
+                ),
+                Role(
+                    "TU Darmstadt",
+                    "Research Assistant • Neural Machine Translation"
+                ),
+                Role(
+                    "UBC CPSC 210",
+                    "Teaching Assistant • Software Construction"
+                ),
+                Role(
+                    "UBC CEDaR",
+                    "Language Reclamation Engineer • Kwak'wala OCR"
+                ),
             ]),
+
             PapersAndTalks([
-                Item("Improving Low-Resource Machine Translation via Cross-Linguistic Transfer from Typologically Similar High-Resource Languages",
-                     link="https://past.the-iyrc.org/uploads/1/2/9/7/129787256/iyrc2021_23_final.pdf"),
-                Item("How does a computer understand Modern Standard Arabic's morphological scales?",
-                     link="https://arxiv.org/abs/2501.00045"),
+                Item(
+                    "Revisiting Cross-Lingual Alignment in the Era "
+                    "of Multilingual LLM Embeddings",
+                    venue="NeurIPS 2026 NeurReps Proceedings",
+                    status="Accepted",
+                ),
+                Item(
+                    "Cross-Linguistic Examination of "
+                    "Machine Translation Transfer Learning",
+                    venue="arXiv",
+                    link="https://arxiv.org/abs/2501.00045",
+                ),
             ]),
+
             Contact(
                 email="soghmon5 [at] gmail [dot] com",
+                github="https://github.com/soghomon-b",
                 web="https://bojai.org",
-                linkedin="https://www.linkedin.com/in/saughmon-boujkian"
+                linkedin=(
+                    "https://www.linkedin.com/in/"
+                    "saughmon-boujkian-65a1b11b2/"
+                ),
             ),
         )
 
     def forward(self, _):
-        # Render sections in a nice order :)
         for layer in self.layers:
             if hasattr(layer, "render"):
                 layer.render()
-        return "👋 Thanks for visiting!"
+        return "Building AI for better science and better care."
+
 
 if __name__ == "__main__":
-    torch.manual_seed(2025)
+    torch.manual_seed(2026)
     model = SoghomonNet()
+
+    # Training never really stops.
     model.fit()
-    # Training in progress: making ML accessible, high-quality, and impactful.
+
+    # Current objective:
+        # Minimize clinical risk.
+        # Maximize scientific impact.
+        # Keep learning.
 ```
 
