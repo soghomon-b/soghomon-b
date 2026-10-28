@@ -1,5 +1,5 @@
 ## Hi there 👋
-I’m Soghomon. I build NLP models that are accessible, high-quality, and impactful.
+I’m Soghomon. I build ML models that are accessible, high-quality, and impactful, especially for clinical applications. 
 Explore the SOGHOMONNET Neural Network below to learn more about me.
 
 ```python
